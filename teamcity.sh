@@ -16,9 +16,6 @@
 #              Continuous Integration builds.
 ### END INIT INFO
 
-# Source function library.
-. /etc/init.d/functions
-
 RETVAL=0
 
 prog=teamcity
