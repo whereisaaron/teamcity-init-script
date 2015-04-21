@@ -12,8 +12,8 @@ sudo chkconfig --add teamcity
 To test it, stop and then start TeamCity
 
 ```
-sudo service stop teamcity
-sudo service start teamcity
+sudo service teamcity stop
+sudo service teamcity start
 ```
 
 Now reboot and ensure TeamCity does indeed start on boot.
